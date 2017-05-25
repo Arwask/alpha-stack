@@ -19,4 +19,4 @@ function stackLetters (theAlphabetArray)
 }
 
 // Invoke the function and pass in the array
-stackLetters(alphabet)
+stackLetters(alphabet);
