@@ -8,7 +8,11 @@ function stackLetters (theAlphabetArray)
     {
     	for(var j = 0; j <= i; j++)
     	{
-    	document.write(`${alphabet[j]}`);
+    		if(j % 3 === 0)
+    		{
+    			document.write(` `);
+    		}
+    		document.write(`${alphabet[j]}`);
     	}
     	document.write('<br/>');
     }
